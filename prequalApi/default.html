@@ -37,10 +37,14 @@
         }
 
         function find() {
-            var id = $('#prodId').val();
-            $.getJSON(uri + '/' + id)
+            var acc = $('#prodId').val();
+            $.getJSON(uri + '/' + acc)
                 .done(function (data) {
-                    $('#product').text(formatItem(data));
+                    //$('#product').text(formatItem(data));
+                    $.each(data, function (key, item) {
+                        // Add a list item for the product.
+                        $('<li>', { text: formatItem(item) }).appendTo($('#product'));
+                    });
                 })
                 .fail(function (jqXHR, textStatus, err) {
                     $('#product').text('Error: ' + err);

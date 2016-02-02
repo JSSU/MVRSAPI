@@ -23,6 +23,7 @@ namespace prequalApi.Controllers
         //                     .ToArray() as MVRS[];
         //    return dblist;
         //}
+        [HttpPost]
         public IEnumerable<MVR> GetAllMeterAccount()
         {
                var dblist = (from it in DB.MVRS
@@ -31,11 +32,11 @@ namespace prequalApi.Controllers
                              .AsEnumerable();
             return dblist;//.GroupBy(it => it.accountNumber)
         }
-
-        public IHttpActionResult GetMeterAccount(string acc)
+        [HttpPost]
+        public IHttpActionResult GetMeterAccount(int id)
         {
             var res = (from it in DB.MVRS
-                       where it.accountNumber == acc
+                       where it.ID == id
                        select it).ToArray();
             if (res == null)
                 return NotFound();
