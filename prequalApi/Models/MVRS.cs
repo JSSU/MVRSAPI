@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace prequalApi.Models
 {
-    class MVRS
+    public class MVRS
     {
         public int ID { get; set; }
         public string accountNumber { get; set; }

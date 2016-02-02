@@ -39,3 +39,7 @@ c:\users\junsu.shen\documents\visual studio 2015\Projects\prequalApi\prequalApi\
 c:\users\junsu.shen\documents\visual studio 2015\Projects\prequalApi\prequalApi\obj\Debug\prequalApi.csprojResolveAssemblyReference.cache
 c:\users\junsu.shen\documents\visual studio 2015\Projects\prequalApi\prequalApi\obj\Debug\prequalApi.dll
 c:\users\junsu.shen\documents\visual studio 2015\Projects\prequalApi\prequalApi\obj\Debug\prequalApi.pdb
+C:\Users\Junsu.Shen\Documents\Visual Studio 2015\Projects\prequalApi\prequalApi\bin\EntityFramework.dll
+C:\Users\Junsu.Shen\Documents\Visual Studio 2015\Projects\prequalApi\prequalApi\bin\EntityFramework.SqlServer.dll
+C:\Users\Junsu.Shen\Documents\Visual Studio 2015\Projects\prequalApi\prequalApi\bin\EntityFramework.xml
+C:\Users\Junsu.Shen\Documents\Visual Studio 2015\Projects\prequalApi\prequalApi\bin\EntityFramework.SqlServer.xml
